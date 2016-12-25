@@ -1,0 +1,17 @@
+import random
+num=(int(random.randint(1,100)))
+#print (num)
+guess=(int(input("Enter your number")))
+i=(int(1))
+while guess!=num:
+    if i>7:
+        break
+    else:
+        if guess>num:
+            print("Your number is greater")
+        else:
+            print ("Your number is lower")
+        guess=(int(input("Enter your number")))
+        i=i+1
+print ("Number was =", num)
+input("\n")
