@@ -1,0 +1,14 @@
+import random
+ore=0
+res=0
+n=0
+i=int(input("How much turns you want to do?: "))
+while n != i:
+    coin=random.randint(0, 1)
+    if coin == 0:
+        ore=ore+1
+    else:
+        res=res+1
+    n=n+1
+print("Ore is ", ore)
+print("Res is ", res)
