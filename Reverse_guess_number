@@ -1,0 +1,16 @@
+min = (int(1))
+max = (int(100))
+a=(int(max//2))
+b=(int(max//2))
+ans="lul"
+while ans!="got":
+    print("Is your num mora than ", a, "?")
+    ans=(input())
+    if ans == "yes":
+        b=b//2
+        a=a+b
+    if ans == "no":
+        b=b//2
+        a=a-b
+print("Num was ", a)
+input("\n")
